@@ -22,7 +22,7 @@ num_samples = data_struct.num_cellSamples;
 % Size of cell groups:
 n = data_struct.n;
 
-%% Compute fractions of transitions for subsampled data:
+%% Estimate local irreversibilities and minimum irreversibilities while correcting for finite-data effects:
 
 % Data fractions to consider:
 fracs = .9:-.1:.5;
